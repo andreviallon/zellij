@@ -1,4 +1,11 @@
 keybinds {
+    unbind "Ctrl g"
+    normal {
+        bind "Ctrl b" { SwitchToMode "locked"; }
+    }
+    locked {
+        bind "Ctrl b" { SwitchToMode "normal"; }
+    }
     shared {
         bind "Alt n" { NewPane; }
         bind "Alt i" { MoveTab "Left"; }
