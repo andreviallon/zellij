@@ -1,10 +1,10 @@
 keybinds {
     unbind "Ctrl g"
     normal {
-        bind "Ctrl b" { SwitchToMode "locked"; }
+        bind "Ctrl z" { SwitchToMode "locked"; }
     }
     locked {
-        bind "Ctrl b" { SwitchToMode "normal"; }
+        bind "Ctrl z" { SwitchToMode "normal"; }
     }
     shared {
         bind "Alt n" { NewPane; }
